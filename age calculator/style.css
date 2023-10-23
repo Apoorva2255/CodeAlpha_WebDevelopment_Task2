@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url("img/pic.jpeg");
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+
+h1 {
+    color: #da5a11;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1d63ad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #02356b;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5c0a0a;
+}
